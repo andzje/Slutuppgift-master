@@ -12,20 +12,24 @@
 </head>
 <body class="background">
     <header>
-        <nav class="nav main-nav">
-            <div class="nav-logo">
-                <a href="index.html"><img src="Bilder/logo.png"></a>
-            </div>
+        <div class="nav-logo">
+            <a href="index.html"><img src="Bilder/logo.png"></a>
+        </div>
+        
+        <nav class="nav">
             <div class="nav-links">
                 <a href="services.html">Our Services</a>
                 <a href="staff.html">Staff</a>
                 <div>
                     <a href="log-in.html">Log In</a>
                     <a href="sign-up.html" class="btn">Sign Up</a>
-                    <img src="bilder/menu-icon.png">
                 </div>
             </div>
         </nav>
+
+        <div class="menu-icon">
+            <img src="bilder/menu-icon.png" onclick="toggleMenu()">
+        </div>
     </header>
 
     <main>
@@ -52,5 +56,7 @@
             </li>
         </nav>
     </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>

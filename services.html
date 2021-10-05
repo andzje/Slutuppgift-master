@@ -12,20 +12,24 @@
 </head>
 <body class="background">
     <header>
-        <nav class="nav main-nav">
-            <div class="nav-logo">
-                <a href="index.html"><img src="Bilder/logo.png"></a>
-            </div>
+        <div class="nav-logo">
+            <a href="index.html"><img src="Bilder/logo.png"></a>
+        </div>
+        
+        <nav class="nav">
             <div class="nav-links">
                 <a href="services.html">Our Services</a>
                 <a href="staff.html">Staff</a>
                 <div>
                     <a href="log-in.html">Log In</a>
                     <a href="sign-up.html" class="btn">Sign Up</a>
-                    <img src="bilder/menu-icon.png">
                 </div>
             </div>
         </nav>
+
+        <div class="menu-icon">
+            <img src="bilder/menu-icon.png" onclick="toggleMenu()">
+        </div>
     </header>
 
     <main>
@@ -33,25 +37,23 @@
             <div class="box-1">
                 <h1>Aim Guidance</h1>
                 <h4>25£/hr</h4>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.</p>
-                <button type="submit" class="btn">BOOK</button>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                <button type="submit" class="btn"><strong>Book Course</strong></button>
             </div>
 
             <div class="box-2">
                 <h1>MOBA Guidance</h1>
                 <h4>40£/hr</h4>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum.</p>
-                <div>
-                    <button type="submit" class="btn">BOOK</button>
-                </div>
+                <button type="submit" class="btn"><strong>Book Course</strong></button>
             </div>
 
 
             <div class="box-3">
                 <h1>BR Guidance</h1>
                 <h4>30£/hr</h4>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat.</p>
-                <button type="submit" class="btn">BOOK</button>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea.</p>
+                <button type="submit" class="btn"><strong>Book Course</strong></button>
             </div>
         </div>
     </main>
@@ -71,5 +73,7 @@
             </li>
         </nav>
     </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
